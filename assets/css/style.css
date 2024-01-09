@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    flex-directon: row;
+    justify-content: space-around;
+    background-color: yellow;
+}
+
+h1 {
+    color: black;
+    font-size: 32px;
+}
+
+a {
+    color: blue;
+    font-size: 24px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+}
+
+aside {
+    font-size: 24px;
+    text-align: left;
+    color: blue;
+}
+
+.center {
+    text-align: center;
+}
+
+.apps {
+    border: 5px solid black;
+}
+
+.mainapp {
+    text-align: center;
+}
+
+.otherapps {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid red;
+}
+
+.otherapps2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+@media screen and (max-width: 768px) {
+
+  .container {
+    flex-direction: column;
+  }
+
+  .otherapps2 {
+    flex-direction: column;
+  }
+}
